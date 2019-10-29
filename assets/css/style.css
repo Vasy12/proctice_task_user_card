@@ -1,0 +1,45 @@
+body {
+    background-color: #B7DCC6;
+}
+
+body > * {
+    margin: 0 auto;
+}
+
+.userCardContainer {
+    width: 300px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.header {
+    height: 200px;
+    width: 100%;
+    background: url("../img/bachgrounds/stars.jpg") no-repeat;
+    background-size:  cover;
+}
+
+.userInfoContainer > * {
+    margin: 0 auto;
+}
+
+.avatarContainer{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-top: -40px;
+}
+
+.avatarContainer > img{
+    width: 80px;
+    object-fit: cover;
+}
+
+.userInfoContainer {
+
+
+}
+
